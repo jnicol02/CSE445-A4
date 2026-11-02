@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
-  <!-- Root element: a directory of one or more national parks -->
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
@@ -10,7 +9,6 @@
     </xs:complexType>
   </xs:element>
 
-  <!-- A single park: Name, one or more Phone, then Address; optional Rating attribute -->
   <xs:complexType name="NationalParkType">
     <xs:sequence>
       <xs:element name="Name" type="xs:string"/>
@@ -20,7 +18,6 @@
     <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
   </xs:complexType>
 
-  <!-- Address: five child elements in order; NearestAirport attribute is required -->
   <xs:complexType name="AddressType">
     <xs:sequence>
       <xs:element name="Number" type="xs:string"/>

@@ -16,6 +16,7 @@
   <NationalPark Rating="4.7">
     <Name>Saguaro</Name>
     <Phone>520-733-5153</Phone>
+    <Phone>520-733-5158</Phone>
     <Address NearestAirport="Tucson">
       <Number>3693</Number>
       <Street>S Old Spanish Trail</Street>
@@ -38,6 +39,7 @@
   <NationalPark Rating="4.8">
     <Name>Death Valley</Name>
     <Phone>760-786-3200</Phone>
+    <Phone>760-786-2331</Phone>
     <Address NearestAirport="Las Vegas">
       <Number>328</Number>
       <Street>Greenland Boulevard</Street>
@@ -60,6 +62,7 @@
   <NationalPark Rating="4.6">
     <Name>Shenandoah</Name>
     <Phone>540-999-3500</Phone>
+    <Phone>800-732-0911</Phone>
     <Address NearestAirport="Dulles">
       <Number>3655</Number>
       <Street>US Highway 211 East</Street>
